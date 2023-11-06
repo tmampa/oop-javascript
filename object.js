@@ -7,7 +7,7 @@ const obj = [
 
 let devOps = ' ';
 
-for (let i = 0; i < obj.length; i++) {
-  devOps += obj[i] + ' ';
+for (let item = 0; item < obj.length; item++) {
+  devOps += obj[item] + ' ';
   console.log(devOps);
 }
