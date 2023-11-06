@@ -5,6 +5,8 @@ const obj = [
   'DataBase',
 ];
 
+console.log(obj instanceof Array);
+
 let devOps = ' ';
 
 for (let item = 0; item < obj.length; item++) {

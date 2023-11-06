@@ -1,4 +1,4 @@
-let courses = [
+const courses = [
   'React',
   'Angular 2',
   'Javascript',
@@ -22,17 +22,12 @@ for (let course = 0; course < courses.length; course++) {
 }
 console.log(output);
 
+const learners = new Array(3);
 
+learners[0] = 1;
+learners[1] = 2;
+learners[2] = 3;
+learners[3] = 4;
+learners[4] = 5;
 
-
-
-
-let leaners = new Array(3);
-
-leaners[0] = 1;
-leaners[1] = 2;
-leaners[2] = 3;
-leaners[3] = 4;
-leaners[4] = 5;
-
-// console.log( 'Number of Learners: ' + leaners);
+// console.log( 'Number of Learners: ' + learners);
