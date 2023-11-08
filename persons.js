@@ -18,12 +18,14 @@ let thoko = {
   age: 25,
 };
 
-function Students(name, age, course) {
-  this.name = name;
-  this.age = age;
-  this.course = course;
+class Students {
+  constructor(name, age, course) {
+    this.name = name;
+    this.age = age;
+    this.course = course;
 
- 
+
+  }
 }
 
 const student = {
