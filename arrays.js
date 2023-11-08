@@ -30,4 +30,5 @@ learners[2] = 3;
 learners[3] = 4;
 learners[4] = 5;
 
-// console.log( 'Number of Learners: ' + learners);
+console.log( 'Number of Learners: ' + learners);
+console.log(learners.length);
