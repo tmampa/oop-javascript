@@ -3,7 +3,7 @@ const excemption = 75;
 const distinction = 85;
 
 // const results = prompt('Enter your results: ');
-const results = 88;
+let results = 88;
 
 const checkPassMark = (results) => {
   if (results == 0) {
